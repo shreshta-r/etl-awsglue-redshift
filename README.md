@@ -22,6 +22,10 @@ Run crawler
 Step 3 : AWS Glue - Create ETL job
 Select Data source as Amazon S3 and provide path to the file "credit_customers.csv"
 Perform Data Cleansing and Transformation : Drop fields task will drop the unnecessary columns from the source file and Change schema will rename the column names and update data types
+
+![Source_Path](dropfields.png)
+![Source_Path](changeschema.png)
+
 Select Amazon S3 as target and provide new path folder "output" where the results will be stored
 
 ![Source_Path](glue_etljob.png)
