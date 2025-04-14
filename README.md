@@ -1,7 +1,7 @@
 # etl-awsglue-redshift : Loading data from S3 bucket to Redshift using AWS Glue
 
 Step 1 : Upload File to S3 Bucket
-![Source_Path](Picture1.png)
+![Source_Path](credit_customers_source.png)
 
 Step 2 : Create table to read input schema in Glue Data Catalog 
 
